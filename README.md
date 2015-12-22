@@ -1,10 +1,10 @@
 # Alice
-Alice sings.
+Alice sings when you type `al`.
+![screenshot](https://github.com/susisu/alice/wiki/images/al.gif)
 
 ## Installation
 ``` shell
 npm install -g https://github.com/susisu/alice.git
-al
 ```
 
 ## Author
