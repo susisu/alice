@@ -3,7 +3,10 @@ Alice sings when you type `al`.
 
 ![screenshot](https://github.com/susisu/alice/wiki/images/al.gif)
 
-## Installation
+## Requirements
+* Node.js (use latest version)
+
+## Install
 ``` shell
 npm install -g https://github.com/susisu/alice.git
 ```
