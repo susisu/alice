@@ -1,0 +1,27 @@
+{
+  "name": "alice",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "bin": "bin"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/susisu/alice.git"
+  },
+  "author": "Susisu <susisu2413@yahoo.co.jp> (https://github.com/susisu)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/susisu/alice/issues"
+  },
+  "homepage": "https://github.com/susisu/alice#readme",
+  "dependencies": {
+    "blessed": "^0.1.81",
+    "co": "^4.6.0",
+    "commander": "^2.9.0"
+  }
+}
