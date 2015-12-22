@@ -1,0 +1,86 @@
+#!/usr/bin/env node
+/*
+ * Alice / al
+ * copyright (c) 2015 Susisu
+ */
+
+"use strict";
+
+var packageInfo = require("../package.json");
+
+process.title = "al";
+
+var program = require("commander");
+program.version(packageInfo.version, "-v, --version");
+program.parse(process.argv);
+
+var blessed = require("blessed");
+var co      = require("co");
+var fs      = require("fs");
+
+/* ignore SIGINT (do not exit) */
+process.on("SIGINT", () => {});
+
+var main = co(function* () {
+    var aaStr = yield readFile(__dirname + "/../data/alice.txt", { "encoding": "utf-8" });
+    var aas   = aaStr.split(/#.*\n/).map(aa => aa.split("\n"));
+
+    var songStr = yield readFile(__dirname + "/../data/song.txt", { "encoding": "utf-8" });
+    var song    = songStr.trim().split(/\n+/);
+
+    var screen = blessed.screen({
+      "smartCSR": true
+    });
+
+    var box = blessed.box({
+        "top"    : "center",
+        "left"   : "center",
+        "width"  : "50%",
+        "height" : "50%",
+        "content": "",
+        "tags"   : true
+    });
+
+    screen.append(box);
+    screen.render();
+
+    for (var i = 0; i < song.length; i++) {
+        var aa = aas[i % aas.length];
+        var output = "";
+        for (var j = 0; j < aa.length; j++) {
+            output += aa[j];
+            if (j === 5) {
+                output += "{bold}{white-fg}" + song[i] + "{/white-fg}{/bold}";
+            }
+            output += "\n";
+        }
+        box.setContent(output);
+        screen.render();
+        yield sleep(300);
+    }
+
+    yield sleep(700);
+    process.exit(0);
+}).catch(error => {
+    console.error(String(error));
+    process.exit(1);
+});
+
+function sleep(time) {
+    return new Promise(resolve => {
+        setTimeout(() => resolve(), time);
+    });
+}
+
+function readFile(filename, option) {
+    return new Promise((resolve, reject) => {
+        fs.readFile(filename, option, (error, result) => {
+            if (error) {
+                reject(error);
+            }
+            else {
+                resolve(result);
+            }
+        })
+    });
+}
