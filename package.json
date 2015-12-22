@@ -1,7 +1,7 @@
 {
   "name": "alice",
-  "version": "0.0.0",
-  "description": "",
+  "version": "0.0.1",
+  "description": "Alice sings",
   "main": "index.js",
   "directories": {
     "bin": "bin"
