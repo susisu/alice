@@ -12,7 +12,13 @@ process.title = "al";
 
 var program = require("commander");
 program.version(packageInfo.version, "-v, --version");
+program.option("-e, --english", "sing in English");
 program.parse(process.argv);
+
+var aaFilePath = __dirname + "/../data/alice.txt";
+var songFilePath = program["english"]
+    ? __dirname + "/../data/song_en.txt"
+    : __dirname + "/../data/song_ja.txt";
 
 var blessed = require("blessed");
 var co      = require("co");
@@ -22,14 +28,15 @@ var fs      = require("fs");
 process.on("SIGINT", () => {});
 
 var main = co(function* () {
-    var aaStr = yield readFile(__dirname + "/../data/alice.txt", { "encoding": "utf-8" });
+    var aaStr = yield readFile(aaFilePath, { "encoding": "utf-8" });
     var aas   = aaStr.split(/#.*\n/).map(aa => aa.split("\n"));
 
-    var songStr = yield readFile(__dirname + "/../data/song.txt", { "encoding": "utf-8" });
+    var songStr = yield readFile(songFilePath, { "encoding": "utf-8" });
     var song    = songStr.trim().split(/\n+/);
 
     var screen = blessed.screen({
-      "smartCSR": true
+      "smartCSR"   : true,
+      "fullUnicode": true
     });
 
     var box = blessed.box({
