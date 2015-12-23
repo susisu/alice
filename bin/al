@@ -37,24 +37,33 @@ process.on("SIGINT", () => {});
 
 var main = co(function* () {
     var aaStr = yield readFile(aaFilePath, { "encoding": "utf-8" });
-    var aas   = aaStr.split(/#.*\n/);
+    var aas   = aaStr.split("#----------------------------------#\n");
 
     var songStr = yield readFile(songFilePath, { "encoding": "utf-8" });
-    var song    = songStr.trim().split(/\n+/);
+    var song    = songStr.trim().split("\n");
 
     var screen = blessed.screen({
       "smartCSR"   : true,
       "fullUnicode": true
     });
 
-    var aaBox = blessed.box({
-        "top"    : 0,
-        "left"   : 0,
-        "width"  : 64,
-        "height" : 12,
-        "tags"   : true
+    var rootBox = blessed.box({
+        "top"   : "center",
+        "left"  : "center",
+        "width" : 80,
+        "height": 12,
+        "tags"  : true
     });
-    screen.append(aaBox);
+    screen.append(rootBox);
+
+    var aaBox = blessed.box({
+        "top"   : 0,
+        "left"  : 12,
+        "width" : 36,
+        "height": 12,
+        "tags"  : true
+    });
+    rootBox.append(aaBox);
 
     var noteBox1 = blessed.box({
         "top"    : 2,
@@ -65,7 +74,7 @@ var main = co(function* () {
         "content": "   rｰ;\n __|T\n(__/",
         "hidden" : true
     });
-    screen.append(noteBox1);
+    rootBox.append(noteBox1);
 
     var noteBox2 = blessed.box({
         "top"    : 9,
@@ -76,16 +85,16 @@ var main = co(function* () {
         "content": "(\"`)  r\"`)\n|[____|T\nL------]",
         "hidden" : true
     });
-    screen.append(noteBox2);
+    rootBox.append(noteBox2);
 
     var songBox = blessed.box({
-        "top"    : 5,
-        "left"   : 48,
-        "width"  : 32,
-        "height" : 2,
-        "tags"   : true
+        "top"   : 5,
+        "left"  : 48,
+        "width" : 32,
+        "height": 2,
+        "tags"  : true
     });
-    screen.append(songBox);
+    rootBox.append(songBox);
 
     for (var i = 0; i < song.length; i++) {
         var aaIndex = (i + 1) % aas.length;
@@ -125,6 +134,6 @@ function readFile(filename, option) {
             else {
                 resolve(result);
             }
-        })
+        });
     });
 }
