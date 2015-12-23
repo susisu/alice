@@ -1,7 +1,7 @@
 # Alice
 Alice sings when you type `al`.
 
-![screenshot](https://github.com/susisu/alice/wiki/images/al.gif)
+![screenshot](https://github.com/susisu/alice/wiki/images/al_ja.gif)
 
 ## Requirements
 * Node.js (use latest version)
