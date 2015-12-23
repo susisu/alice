@@ -1,6 +1,6 @@
 {
-  "name": "alice",
-  "version": "0.0.4",
+  "name": "@susisu/alice",
+  "version": "0.0.5",
   "description": "Alice sings",
   "main": "index.js",
   "directories": {

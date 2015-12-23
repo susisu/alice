@@ -8,7 +8,7 @@ Alice sings when you type `al`.
 
 ## Install
 ``` shell
-npm install -g https://github.com/susisu/alice.git
+npm install -g @susisu/alice
 ```
 
 ## Why don't you sing in English?
