@@ -13,13 +13,15 @@ process.title = "al";
 var program = require("commander");
 program.version(packageInfo.version, "-v, --version");
 program.option("-e, --english", "sing in English");
-program.option("-s, --speed <value>", "set speed (default = 100)")
+program.option("-s, --speed <value>", "set speed (default = 100)");
+program.option("-S, --song <filename>", "load song from file");
 program.parse(process.argv);
 
 var aaFilePath = __dirname + "/../data/alice.txt";
-var songFilePath = program["english"]
-    ? __dirname + "/../data/song_en.txt"
-    : __dirname + "/../data/song_ja.txt";
+var songFilePath =
+      program["song"]    ? program["song"]
+    : program["english"] ? __dirname + "/../data/song_en.txt"
+                         : __dirname + "/../data/song_ja.txt";
 
 var speed = parseFloat(program["speed"]);
 if (Number.isNaN(speed) || speed <= 0.0) {
