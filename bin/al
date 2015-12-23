@@ -88,8 +88,8 @@ var main = co(function* () {
     for (var i = 0; i < song.length; i++) {
         var aaIndex = (i + 1) % aas.length;
         aaBox.setContent(aas[aaIndex]);
-        noteBox1.hidden = !(aaIndex == 0 || aaIndex == 1);
-        noteBox2.hidden = !(aaIndex == 4 || aaIndex == 5);
+        noteBox1.hidden = !(aaIndex == 1 || aaIndex == 2);
+        noteBox2.hidden = !(aaIndex == 5 || aaIndex == 6);
         songBox.setContent("{bold}" + song[i] + "{/bold}");
         screen.render();
         yield sleep(Math.round(30000 / speed));
