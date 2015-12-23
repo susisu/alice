@@ -85,10 +85,8 @@ var main = co(function* () {
     });
     screen.append(songBox);
 
-    screen.render();
-
     for (var i = 0; i < song.length; i++) {
-        var aaIndex = i % aas.length;
+        var aaIndex = (i + 1) % aas.length;
         aaBox.setContent(aas[aaIndex]);
         noteBox1.hidden = !(aaIndex == 0 || aaIndex == 1);
         noteBox2.hidden = !(aaIndex == 4 || aaIndex == 5);
@@ -97,8 +95,13 @@ var main = co(function* () {
         yield sleep(Math.round(30000 / speed));
     }
 
+    aaBox.setContent(aas[0]);
+    noteBox1.hidden = true;
+    noteBox2.hidden = true;
+    songBox.setContent("");
     screen.render();
     yield sleep(1000);
+
     process.exit(0);
 }).catch(error => {
     console.error(String(error));
