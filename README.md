@@ -11,5 +11,10 @@ Alice sings when you type `al`.
 npm install -g https://github.com/susisu/alice.git
 ```
 
+## Why don't you sing in English?
+``` shell
+al -e
+```
+
 ## Author
 Susisu ([GitHub](https://github.com/susisu), [Twitter](https://twitter.com/susisu2413))
