@@ -1,48 +1,16 @@
-Happy
-Happy
-Happy birthday
-Happy birthday
-Happy birthday
-Happy birthday
-Happy birthday to
-Happy birthday to
-Happy birthday to you,
-Happy birthday to you,
-Happy birthday to you,
-Happy birthday to you,
-Happy
-Happy
-Happy birthday
-Happy birthday
-Happy birthday
-Happy birthday
-Happy birthday to
-Happy birthday to
-Happy birthday to you,
-Happy birthday to you,
-Happy birthday to you,
-Happy birthday to you,
-Happy
-Happy
-Happy birthday,
-Happy birthday,
-Happy birthday,
-Happy birthday,
-Happy birthday, dear
-Happy birthday, dear
-Happy birthday, dear Shino!
-Happy birthday, dear Shino!
-Happy birthday, dear Shino!
-Happy birthday, dear Shino!
-Happy
-Happy
-Happy birthday
-Happy birthday
-Happy birthday
-Happy birthday
-Happy birthday to
-Happy birthday to
-Happy birthday to you!
-Happy birthday to you!
-Happy birthday to you!
-Happy birthday to you!
+2,Happy
+4,Happy birthday
+2,Happy birthday to
+4,Happy birthday to you,
+2,Happy
+4,Happy birthday
+2,Happy birthday to
+4,Happy birthday to you,
+2,Happy
+4,Happy birthday,
+2,Happy birthday, dear
+4,Happy birthday, dear Shino!
+2,Happy
+4,Happy birthday
+2,Happy birthday to
+4,Happy birthday to you!

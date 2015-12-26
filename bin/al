@@ -40,7 +40,20 @@ var main = co(function* () {
     var aas   = aaStr.split("#----------------------------------#\n");
 
     var songStr = yield readFile(songFilePath, { "encoding": "utf-8" });
-    var song    = songStr.trim().split("\n");
+    var song =
+        songStr.trim()
+            .split("\n")
+            .reduce(
+                (arr, line) => {
+                    var i = line.indexOf(",");
+                    var n = i <= 0 ? 1 : parseInt(line.substr(0, i));
+                    if (Number.isNaN(n) || n <= 0) {
+                        n = 1;
+                    }
+                    return arr.concat(new Array(n).fill(line.substr(i + 1)));
+                },
+                []
+            );
 
     var screen = blessed.screen({
       "smartCSR"   : true,
