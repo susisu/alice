@@ -121,7 +121,7 @@ var main = co(function* () {
             noteBox1.hidden = !(aaIndex == 1 || aaIndex == 2);
             noteBox2.hidden = !(aaIndex == 5 || aaIndex == 6);
         }
-        songBox.setContent("{bold}" + song[i] + "{/bold}");
+        songBox.setContent(song[i]);
         screen.render();
         yield sleep(Math.round(30000 / speed));
     }
