@@ -9,7 +9,7 @@
 2,Happy
 4,Happy birthday,
 2,Happy birthday, dear
-4,Happy birthday, dear Shino!
+4,Happy birthday, dear {bold}Shino!{/bold}
 2,Happy
 4,Happy birthday
 2,Happy birthday to
