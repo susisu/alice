@@ -13,20 +13,10 @@ process.title = "al";
 var program = require("commander");
 program.version(packageInfo.version, "-v, --version");
 program.option("-e, --english", "sing in English");
+program.option("-c, --colors", "colorize ASCII arts");
 program.option("-s, --speed <value>", "set speed (default = 100)");
 program.option("-S, --song <filename>", "load song from file");
 program.parse(process.argv);
-
-var aaFilePath = __dirname + "/../data/alice.txt";
-var songFilePath =
-      program["song"]    ? program["song"]
-    : program["english"] ? __dirname + "/../data/song_en.txt"
-                         : __dirname + "/../data/song_ja.txt";
-
-var speed = parseFloat(program["speed"]);
-if (Number.isNaN(speed) || speed <= 0.0) {
-    speed = 100.0;
-}
 
 var blessed = require("blessed");
 var co      = require("co");
@@ -36,6 +26,19 @@ var fs      = require("fs");
 process.on("SIGINT", () => {});
 
 var main = co(function* () {
+    var aaFilePath = program["colors"]
+        ? __dirname + "/../data/alice_colored.txt"
+        : __dirname + "/../data/alice.txt";
+    var songFilePath =
+          program["song"]    ? program["song"]
+        : program["english"] ? __dirname + "/../data/song_en.txt"
+                             : __dirname + "/../data/song_ja.txt";
+
+    var speed = parseFloat(program["speed"]);
+    if (Number.isNaN(speed) || speed <= 0.0) {
+        speed = 100.0;
+    }
+
     var aaStr = yield readFile(aaFilePath, { "encoding": "utf-8" });
     var aas   = aaStr.split("#----------------------------------#\n");
 
@@ -87,6 +90,9 @@ var main = co(function* () {
         "content": "   rｰ;\n __|T\n(__/",
         "hidden" : true
     });
+    if (program["colors"]) {
+        noteBox1.style.fg = "green";
+    }
     rootBox.append(noteBox1);
 
     var noteBox2 = blessed.box({
@@ -98,6 +104,9 @@ var main = co(function* () {
         "content": "(\"`)  r\"`)\n|[____|T\nL------]",
         "hidden" : true
     });
+    if (program["colors"]) {
+        noteBox2.style.fg = "blue";
+    }
     rootBox.append(noteBox2);
 
     var songBox = blessed.box({

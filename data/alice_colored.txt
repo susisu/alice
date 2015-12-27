@@ -1,0 +1,103 @@
+
+                            _       
+              {yellow-fg}__  __{/yellow-fg}      | {red-fg}O{/red-fg}"      
+       {yellow-fg}/ `>' '   '    `  <{/yellow-fg}!/  {yellow-fg}` \{/yellow-fg}   
+     {yellow-fg}((  ,'  /           ` A    j{/yellow-fg}   
+     {yellow-fg})) /   /!     l,_ |   \   ({/yellow-fg}    
+    {yellow-fg}/  l/| /`l/\  V   `l/  j    \{/yellow-fg}   
+   {yellow-fg}(O    \/{/yellow-fg} {cyan-fg}h{/cyan-fg}    {yellow-fg}\j{/yellow-fg} {cyan-fg}h{/cyan-fg}   {yellow-fg}|  ;    D){/yellow-fg}  
+   {yellow-fg}`.     j{/yellow-fg} {cyan-fg}U       U{/cyan-fg}   {yellow-fg}j/      ({/yellow-fg}   
+    {yellow-fg}j     /{/yellow-fg}\{magenta-fg}""{/magenta-fg}  {red-fg}__{/red-fg}  {magenta-fg}""{/magenta-fg}  _/{yellow-fg})     )){/yellow-fg}  
+   {yellow-fg}`ｰ(   /{/yellow-fg}  `~-;  r-<" '{yellow-fg}/l__/l,-'{/yellow-fg}   
+      {yellow-fg}\{{/yellow-fg}   fY `l{magenta-fg}O==]{/magenta-fg}-\              
+#----------------------------------#
+                          _         
+            {yellow-fg}__  __{/yellow-fg}      | {red-fg}O{/red-fg}=        
+      {yellow-fg}/`>' '   '    `  <{/yellow-fg}!/   {yellow-fg}` \{/yellow-fg}    
+    {yellow-fg}(( ,'  /           ` A     J{/yellow-fg}    
+    {yellow-fg}))/   /!     l,_ |   \    ({/yellow-fg}     
+   {yellow-fg}/ l/| /`l/\  V   `l/  j     \{/yellow-fg}    
+  {yellow-fg}(O   \/{/yellow-fg} {cyan-fg}h{/cyan-fg}    {yellow-fg}\j{/yellow-fg} {cyan-fg}h{/cyan-fg}   {yellow-fg}|  ;     D){/yellow-fg}   
+  {yellow-fg}`.    j{/yellow-fg} {cyan-fg}U       U{/cyan-fg}   {yellow-fg}j/       ({/yellow-fg}    
+   {yellow-fg}j    /{/yellow-fg}\{magenta-fg}""{/magenta-fg} {red-fg}r- ,{/red-fg} {magenta-fg}""{/magenta-fg}  _/{yellow-fg})      )){/yellow-fg}   
+  {yellow-fg}`ｰ(  /{/yellow-fg}  `~-;{red-fg}`{/red-fg} r-<" ' {yellow-fg}/l__/l,-'{/yellow-fg}    
+     {yellow-fg}\{{/yellow-fg}  fY `l{magenta-fg}O==]{/magenta-fg}-\                
+         lA__K:{magenta-fg}H|{/magenta-fg}/ |                
+#----------------------------------#
+                         _          
+           {yellow-fg}__  __{/yellow-fg}      | {red-fg}O{/red-fg}=         
+     {yellow-fg}/`>' '   '    `  <{/yellow-fg}!/   {yellow-fg}` \{/yellow-fg}     
+   {yellow-fg}(( ,'  /           ` A     J{/yellow-fg}     
+   {yellow-fg}))/   /!     l,_ |   \    ({/yellow-fg}      
+  {yellow-fg}/ l/| /`l/\  V   `l/  j     \{/yellow-fg}     
+ {yellow-fg}(O   \/{/yellow-fg} {cyan-fg}h{/cyan-fg}    {yellow-fg}\j{/yellow-fg} {cyan-fg}h{/cyan-fg}   {yellow-fg}|  ;     D){/yellow-fg}    
+ {yellow-fg}`.    j{/yellow-fg} {cyan-fg}U       U{/cyan-fg}   {yellow-fg}j/       ({/yellow-fg}     
+  {yellow-fg}j    /{/yellow-fg}\{magenta-fg}""{/magenta-fg} {red-fg}r- ,{/red-fg} {magenta-fg}""{/magenta-fg}  _/{yellow-fg})      )){/yellow-fg}    
+ {yellow-fg}`ｰ(  /{/yellow-fg}  `~-;{red-fg}`{/red-fg} r-<" ' {yellow-fg}/l__/l,-'{/yellow-fg}     
+    {yellow-fg}\{{/yellow-fg}  fY `l{magenta-fg}O==]{/magenta-fg}-\                 
+        lA__K:{magenta-fg}H|{/magenta-fg}/ |                 
+#----------------------------------#
+                         _          
+           {yellow-fg}__  __{/yellow-fg}      | {red-fg}O{/red-fg}=         
+     {yellow-fg}/`>' '   '    `  <{/yellow-fg}!/   {yellow-fg}` \{/yellow-fg}     
+   {yellow-fg}(( ,'  /           ` A     J{/yellow-fg}     
+   {yellow-fg}))/   /!     l,_ |   \    ({/yellow-fg}      
+  {yellow-fg}/ l/| /`l/\  V   `l/  j     \{/yellow-fg}     
+ {yellow-fg}(O   \/{/yellow-fg} {cyan-fg}h{/cyan-fg}    {yellow-fg}\j{/yellow-fg} {cyan-fg}h{/cyan-fg}   {yellow-fg}|  ;     D){/yellow-fg}    
+ {yellow-fg}`.    j{/yellow-fg} {cyan-fg}U       U{/cyan-fg}   {yellow-fg}j/       ({/yellow-fg}     
+  {yellow-fg}j    /{/yellow-fg}\{magenta-fg}""{/magenta-fg}  {red-fg}__{/red-fg}  {magenta-fg}""{/magenta-fg}  _/{yellow-fg})      )){/yellow-fg}    
+ {yellow-fg}`ｰ(  /{/yellow-fg}  `~-;  r-<" ' {yellow-fg}/l__/l,-'{/yellow-fg}     
+    {yellow-fg}\{{/yellow-fg}  fY `l{magenta-fg}O==]{/magenta-fg}-\                 
+        lA__K:{magenta-fg}H|{/magenta-fg}/ |                 
+#----------------------------------#
+
+                           _        
+             {yellow-fg}__  __{/yellow-fg}      | {red-fg}O{/red-fg}"       
+      {yellow-fg}/ `>' '   '    `  <{/yellow-fg}!/  {yellow-fg}` \{/yellow-fg}    
+    {yellow-fg}((  ,'  /           ` A    j{/yellow-fg}    
+    {yellow-fg})) /   /!     l,_ |   \   ({/yellow-fg}     
+   {yellow-fg}/  l/| /`l/\  V   `l/  j    \{/yellow-fg}    
+  {yellow-fg}(O    \/{/yellow-fg} {cyan-fg}h{/cyan-fg}    {yellow-fg}\j{/yellow-fg} {cyan-fg}h{/cyan-fg}   {yellow-fg}|  ;    D){/yellow-fg}   
+  {yellow-fg}`.     j{/yellow-fg} {cyan-fg}U       U{/cyan-fg}   {yellow-fg}j/      ({/yellow-fg}    
+   {yellow-fg}j     /{/yellow-fg}\{magenta-fg}""{/magenta-fg}  {red-fg}__{/red-fg}  {magenta-fg}""{/magenta-fg}  _/{yellow-fg})     )){/yellow-fg}   
+  {yellow-fg}`ｰ(   /{/yellow-fg}  `~-;  r-<" '{yellow-fg}/l__/l,-'{/yellow-fg}    
+     {yellow-fg}\{{/yellow-fg}   fY `l{magenta-fg}O==]{/magenta-fg}-\               
+#----------------------------------#
+                             _      
+               {yellow-fg}__  __{/yellow-fg}      | {red-fg}O{/red-fg}"     
+       {yellow-fg}/  `>' '   '    `  <{/yellow-fg}!/ {yellow-fg}` \{/yellow-fg}   
+     {yellow-fg}((   ,'  /           ` A   j{/yellow-fg}   
+     {yellow-fg}) ) /   /!     l,_ |   \  ({/yellow-fg}    
+    {yellow-fg}/   l/| /`l/\  V   `l/  j   \{/yellow-fg}   
+   {yellow-fg}(O     \/{/yellow-fg} {cyan-fg}h{/cyan-fg}    {yellow-fg}\j{/yellow-fg} {cyan-fg}h{/cyan-fg}   {yellow-fg}|  ;   D){/yellow-fg}  
+   {yellow-fg}`.      j{/yellow-fg} {cyan-fg}U       U{/cyan-fg}   {yellow-fg}j/     ({/yellow-fg}   
+    {yellow-fg}j      /{/yellow-fg}\{magenta-fg}""{/magenta-fg} {red-fg}r- ,{/red-fg} {magenta-fg}""{/magenta-fg}  _/{yellow-fg})    )){/yellow-fg}  
+   {yellow-fg}`ｰ(    /{/yellow-fg}  `~-;{red-fg}`{/red-fg} r-<" '{yellow-fg}/l_/l,-'{/yellow-fg}   
+      {yellow-fg}\ {{/yellow-fg}   fY `l{magenta-fg}O==]{/magenta-fg}-\             
+            lA__K:{magenta-fg}H|{/magenta-fg}/ |             
+#----------------------------------#
+                              _     
+                {yellow-fg}__  __{/yellow-fg}      | {red-fg}O{/red-fg}"    
+        {yellow-fg}/  `>' '   '    `  <{/yellow-fg}!/ {yellow-fg}` \{/yellow-fg}  
+      {yellow-fg}((   ,'  /           ` A   j{/yellow-fg}  
+      {yellow-fg}) ) /   /!     l,_ |   \  ({/yellow-fg}   
+     {yellow-fg}/   l/| /`l/\  V   `l/  j   \{/yellow-fg}  
+    {yellow-fg}(O     \/{/yellow-fg} {cyan-fg}h{/cyan-fg}    {yellow-fg}\j{/yellow-fg} {cyan-fg}h{/cyan-fg}   {yellow-fg}|  ;   D){/yellow-fg} 
+    {yellow-fg}`.      j{/yellow-fg} {cyan-fg}U       U{/cyan-fg}   {yellow-fg}j/     ({/yellow-fg}  
+     {yellow-fg}j      /{/yellow-fg}\{magenta-fg}""{/magenta-fg} {red-fg}r- ,{/red-fg} {magenta-fg}""{/magenta-fg}  _/{yellow-fg})    )){/yellow-fg} 
+    {yellow-fg}`ｰ(    /{/yellow-fg}  `~-;{red-fg}`{/red-fg} r-<" '{yellow-fg}/l_/l,-'{/yellow-fg}  
+       {yellow-fg}\ {{/yellow-fg}   fY `l{magenta-fg}O==]{/magenta-fg}-\            
+             lA__K:{magenta-fg}H|{/magenta-fg}/ |            
+#----------------------------------#
+                              _     
+                {yellow-fg}__  __{/yellow-fg}      | {red-fg}O{/red-fg}"    
+        {yellow-fg}/  `>' '   '    `  <{/yellow-fg}!/ {yellow-fg}` \{/yellow-fg}  
+      {yellow-fg}((   ,'  /           ` A   j{/yellow-fg}  
+      {yellow-fg}) ) /   /!     l,_ |   \  ({/yellow-fg}   
+     {yellow-fg}/   l/| /`l/\  V   `l/  j   \{/yellow-fg}  
+    {yellow-fg}(O     \/{/yellow-fg} {cyan-fg}h{/cyan-fg}    {yellow-fg}\j{/yellow-fg} {cyan-fg}h{/cyan-fg}   {yellow-fg}|  ;   D){/yellow-fg} 
+    {yellow-fg}`.      j{/yellow-fg} {cyan-fg}U       U{/cyan-fg}   {yellow-fg}j/     ({/yellow-fg}  
+     {yellow-fg}j      /{/yellow-fg}\{magenta-fg}""{/magenta-fg}  {red-fg}__{/red-fg}  {magenta-fg}""{/magenta-fg}  _/{yellow-fg})    )){/yellow-fg} 
+    {yellow-fg}`ｰ(    /{/yellow-fg}  `~-;  r-<" '{yellow-fg}/l_/l,-'{/yellow-fg}  
+       {yellow-fg}\ {{/yellow-fg}   fY `l{magenta-fg}O==]{/magenta-fg}-\            
+             lA__K:{magenta-fg}H|{/magenta-fg}/ |            
