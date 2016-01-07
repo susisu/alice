@@ -21,18 +21,19 @@ program.parse(process.argv);
 var blessed = require("blessed");
 var co      = require("co");
 var fs      = require("fs");
+var path    = require("path");
 
 /* ignore SIGINT (do not exit) */
 process.on("SIGINT", () => {});
 
 var main = co(function* () {
     var aaFilePath = program["colors"]
-        ? __dirname + "/../data/alice_colored.txt"
-        : __dirname + "/../data/alice.txt";
+        ? path.join(__dirname, "../data/alice_colored.txt")
+        : path.join(__dirname, "../data/alice.txt");
     var songFilePath =
           program["song"]    ? program["song"]
-        : program["english"] ? __dirname + "/../data/song_en.txt"
-                             : __dirname + "/../data/song_ja.txt";
+        : program["english"] ? path.join(__dirname, "../data/song_en.txt")
+                             : path.join(__dirname, "../data/song_ja.txt");
 
     var speed = parseFloat(program["speed"]);
     if (Number.isNaN(speed) || speed <= 0.0) {
