@@ -88,7 +88,7 @@ var main = co(function* () {
         "width"  : 6,
         "height" : 3,
         "tags"   : true,
-        "content": "   rｰ;\n __|T\n(__/",
+        "content": "   r-;\n __|T\n(__/",
         "hidden" : true
     });
     if (program["colors"]) {
