@@ -17,11 +17,11 @@ al [options]
 ```
 
 ### Options
-`-h`, `--help`: output usage information
-`-v`, `--version`: output the version number
-`-c`, `--colors`: colorize the ASCII arts (white background is recommended)
-`-s`, `--speed <value>`: change animation speed (default = 100)
-`-S`, `--song <filename>`: load song lyrics from file
+* `-h`, `--help`: output usage information
+* `-v`, `--version`: output the version number
+* `-c`, `--colors`: colorize the ASCII arts (white background is recommended)
+* `-s`, `--speed <value>`: change animation speed (default = 100)
+* `-S`, `--song <filename>`: load song lyrics from file
 
 ### Why don't you sing in English?
 ``` shell
