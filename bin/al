@@ -13,9 +13,9 @@ process.title = "al";
 var program = require("commander");
 program.version(packageInfo.version, "-v, --version");
 program.option("-e, --english", "sing in English");
-program.option("-c, --colors", "colorize ASCII arts");
-program.option("-s, --speed <value>", "set speed (default = 100)");
-program.option("-S, --song <filename>", "load song from file");
+program.option("-c, --colors", "colorize the ASCII arts");
+program.option("-s, --speed <value>", "change animation speed (default = 100)");
+program.option("-S, --song <filename>", "load song lyrics from file");
 program.parse(process.argv);
 
 var blessed = require("blessed");
